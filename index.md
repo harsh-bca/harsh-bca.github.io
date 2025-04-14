@@ -26,5 +26,5 @@ Welcome to my portfolio! I'm passionate about transforming data into meaningful 
 
 ## Contact
 
-- [LinkedIn](linkedin.com/in/harsh-tripathi-64376333a)  
+- [LinkedIn](www.linkedin.com/in/harsh-tripathi-64376333a)  
 - Email:harsh.tripati21@gmail.com
