@@ -3,7 +3,7 @@ layout: default
 title: Harsh's Portfolio
 ---
 
-#<img src="assets/images/github_port" alt="Harsh Logo" style="width: 100px; height: auto;"/>
+<img src="docs/assets/github_profile_pic.jpg" alt="Harsh Logo" style="width: 100px; height: auto;"/>
 
 # Hi, I'm Harsh  
 Aspiring Data Analyst | Python | SQL | Power BI | BCA Student at GNIOT
