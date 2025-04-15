@@ -3,7 +3,7 @@ layout: default
 title: Harsh's Portfolio
 ---
 
-<img src="assets/github_profile_pic.jpg" alt="Harsh Logo" style="width: 120px; border-radius: 50%;"/>
+<img src="assets/github_profile_pic.jpg" alt="logo" style="width: 120px; border-radius: 50%;"/>
 
 # 👋 Hi, I'm Harsh  
 🎓 BCA Student @ GNIOT | Aspiring Data Analyst  
