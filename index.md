@@ -2,7 +2,7 @@
 Harsh's Portfolio
 ---
 
-## 📢 **"Data Speaks The Truth"**
+## 📢  **" Data Speaks The Truth "**
 
 <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic" style="width: 120px; border-radius: 50%;" />
 
@@ -36,8 +36,7 @@ A deep-dive into youth behavior across India using survey data, visualized in Po
 
 ## 📜 Certifications
 
-### ✅ Grastech – Data Science & AI  
-<img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/grastech%20certificate.jpg" alt="Grastech Certificate" style="width: 300px; border: 1px solid #ccc; margin-top: 10px;" />
+- ✅ [Grastech – Data Science & AI (View Certificate)](https://github.com/harsh-bca/portfolio-assets/blob/main/grastech%20certificate.jpg)
 
 ### ✅ [Wadhwani Foundation – Soft Skills (View PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf)
 
