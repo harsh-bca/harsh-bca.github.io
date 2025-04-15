@@ -1,6 +1,4 @@
 
-Harsh's Portfolio
----
 
 ## 📢  **" Data Speaks The Truth "**
 
