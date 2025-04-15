@@ -1,9 +1,10 @@
-![My Logo](assets/github_profile_pic.jpg)
 ------
-
 layout: default
 title: Harsh's Portfolio
 ---
+
+<img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic" style="width: 120px; border-radius: 50%;" />
+
 
 # 👋 Hi, I'm Harsh  
 🎓 BCA Student @ GNIOT | Aspiring Data Analyst  
