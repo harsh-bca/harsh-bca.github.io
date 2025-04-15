@@ -3,31 +3,54 @@ layout: default
 title: Harsh's Portfolio
 ---
 
-<img src="docs/assets/github_profile_pic.jpg" alt="Harsh Logo" style="width: 100px; height: auto;"/>
+<img src="assets/github_profile_pic.jpg" alt="Harsh Logo" style="width: 120px; border-radius: 50%;"/>
 
-# Hi, I'm Harsh  
-Aspiring Data Analyst | Python | SQL | Power BI | BCA Student at GNIOT
+# 👋 Hi, I'm Harsh  
+🎓 BCA Student @ GNIOT | Aspiring Data Analyst  
+💼 Python | SQL | Power BI | Excel | Communication
 
-Welcome to my portfolio! I'm passionate about transforming data into meaningful insights.
+---
 
-## Projects
+## 📊 Projects
 
-- **[Youth Trends Analysis](https://github.com/harsh-bca/Youth-Trend-Analysis)**  
-  Explores youth interests and behavior across India using survey data and Power BI.
+### 🔹 [Youth Trends Analysis](https://github.com/harsh-bca/Youth-Trends-Analysis)
+A deep-dive into youth behavior across India using survey data, visualized in Power BI.  
+- Built dashboards for mental health, social media, and career insights.
+- Used google form to collect responses of individuals, python to clean the data,connect Google Sheet to MYSQL database and to analyze the data,
+  SQL to create parameters, Power BI to visualize the dataset in a meaningful way. Also used Window Task Scheduler to automate the insertion of 
+  data into MYSQL database.
+---
 
-## Skills
+## 💡 Skills
 
-- Python | SQL | Power BI | Excel | Strong Communication Skills
+| Technical Skills     | Tools & Concepts                   |
+|----------------------|------------------------------------|
+| Python               | Data Cleaning & Wrangling          |
+| SQL                  | EDA (Exploratory Data Analysis)    |
+| Power BI             | Dashboard Design & KPIs            |
+| Excel                | Pivot Tables, VLOOKUP, Charts      |
+| Communication Skills | Data Storytelling                  |
 
-## Certifications
+---
 
-- Data Science & AI – Grastech  
-- Soft Skills – Wadhwani Foundation  
-- SQL Certification - Great Learning  
-- Personality Development – SAEIF Foundation
-- Data Analysis Certification - Linkedin Learning
+## 📜 Certifications
 
-## Contact
+#- ✅ [Grastech – Data Science & AI](https://github.com/harsh-bca/Youth-Trends-Analysis/blob/main/certificates/grastech.pdf)
+- ✅ Wadhwani Foundation – Soft Skills
+- ✅ Great Learning – SQL Certification
+- ✅ SAEIF Foundation – Personality Development
+- ✅ LinkedIn Learning – Data Analysis
 
-- [LinkedIn](https://www.linkedin.com/in/harsh-tripathi-64376333a)  
-- Email: harsh.tripati21@gmail.com
+---
+
+## 📬 Contact
+
+- 🌐 [LinkedIn](https://www.linkedin.com/in/harsh-tripathi-64376333a)
+- 📧 harsh.tripati21@gmail.com
+
+---
+
+## 📸 Portfolio Tips & Projects Coming Soon
+> Follow this portfolio for upcoming dashboards, SQL projects, and EDA case studies!  
+> I'm building my path to becoming a full-stack Data Analyst 🚀
+
