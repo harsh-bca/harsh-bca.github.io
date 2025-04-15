@@ -1,10 +1,10 @@
-------
-layout: default
-title: Harsh's Portfolio
+
+Harsh's Portfolio
 ---
 
-<img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic" style="width: 120px; border-radius: 50%;" />
+## 📢 **"Data Speaks The Truth"**
 
+<img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic" style="width: 120px; border-radius: 50%;" />
 
 # 👋 Hi, I'm Harsh  
 🎓 BCA Student @ GNIOT | Aspiring Data Analyst  
@@ -17,9 +17,9 @@ title: Harsh's Portfolio
 ### 🔹 [Youth Trends Analysis](https://github.com/harsh-bca/Youth-Trends-Analysis)
 A deep-dive into youth behavior across India using survey data, visualized in Power BI.  
 - Built dashboards for mental health, social media, and career insights.
-- Used google form to collect responses of individuals, python to clean the data,connect Google Sheet to MYSQL database and to analyze the data,
-  SQL to create parameters, Power BI to visualize the dataset in a meaningful way. Also used Window Task Scheduler to automate the insertion of 
-  data into MYSQL database.
+- Used Google Forms to collect responses of individuals, Python to clean the data, connect Google Sheet to MySQL database and analyze the data.
+- SQL to create parameters, Power BI to visualize the dataset in a meaningful way. Used Windows Task Scheduler to automate data insertion into MySQL.
+
 ---
 
 ## 💡 Skills
@@ -36,17 +36,20 @@ A deep-dive into youth behavior across India using survey data, visualized in Po
 
 ## 📜 Certifications
 
-- ✅[Grastech – Data Science & AI](docs/assets/grastech_certificate.jpg)](docs/assets/grastech_certificate.jpg)
-- ✅ Wadhwani Foundation – Soft Skills
-- ✅ Great Learning – SQL Certification
-- ✅ SAEIF Foundation – Personality Development
+### ✅ Grastech – Data Science & AI  
+<img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/grastech%20certificate.jpg" alt="Grastech Certificate" style="width: 300px; border: 1px solid #ccc; margin-top: 10px;" />
+
+### ✅ [Wadhwani Foundation – Soft Skills (View PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf)
+
+- ✅ Great Learning – SQL Certification  
+- ✅ SAEIF Foundation – Personality Development  
 - ✅ LinkedIn Learning – Data Analysis
 
 ---
 
 ## 📬 Contact
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/harsh-tripathi-64376333a)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/harsh-tripathi-64376333a)  
 - 📧 harsh.tripati21@gmail.com
 
 ---
@@ -54,4 +57,3 @@ A deep-dive into youth behavior across India using survey data, visualized in Po
 ## 📸 Portfolio Tips & Projects Coming Soon
 > Follow this portfolio for upcoming dashboards, SQL projects, and EDA case studies!  
 > I'm building my path to becoming a full-stack Data Analyst 🚀
-
