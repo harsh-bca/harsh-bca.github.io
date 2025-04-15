@@ -37,10 +37,8 @@ A deep-dive into youth behavior across India using survey data, visualized in Po
 ## 📜 Certifications
 
 - ✅ [Grastech – Data Science & AI (View Certificate)](https://github.com/harsh-bca/portfolio-assets/blob/main/grastech%20certificate.jpg)
-
-### ✅ [Wadhwani Foundation – Soft Skills (View PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf)
-
-- ✅ Great Learning – SQL Certification  
+- ✅ [Wadhwani Foundation – Soft Skills (View PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf)
+- ✅ [Great Learning – SQL Certification (View PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20.pdf)
 - ✅ SAEIF Foundation – Personality Development  
 - ✅ LinkedIn Learning – Data Analysis
 
