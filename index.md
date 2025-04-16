@@ -1,5 +1,6 @@
-
 ## 📢  **" Data Tells The Truth "**
+
+
 
 <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic" style="width: 120px; border-radius: 50%;" />
 
@@ -44,7 +45,7 @@ A deep-dive into youth behavior across India using survey data, visualized in Po
 ## 📬 Contact
 
 - 🌐 [LinkedIn](https://www.linkedin.com/in/harsh-tripathi-64376333a)  
-- 📧 harsh.tripati21@gmail.com
+- 📧 [harsh.tripati21@gmail.com](mailto:harsh.tripati21@gmail.com)
 
 ---
 
