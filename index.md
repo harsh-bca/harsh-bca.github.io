@@ -1,6 +1,5 @@
 
-
-## 📢  **" Data Speaks The Truth "**
+## 📢  **" Data Tells The Truth "**
 
 <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic" style="width: 120px; border-radius: 50%;" />
 
