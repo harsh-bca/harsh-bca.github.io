@@ -17,8 +17,10 @@ A deep-dive into youth behavior across India using survey data, visualized in Po
 - Used Google Forms to collect responses of individuals, Python to clean the data, connect Google Sheet to MySQL database and analyze the data.
 - SQL to create parameters, Power BI to visualize the dataset in a meaningful way. Used Windows Task Scheduler to automate data insertion into MySQL.
 - Built dashboards for mental health, social media, and career insights.
+
+ 
 ---
-###  🔹[EDA Project](https://github.com/harsh-bca/EDA-Project)
+### 🔹[EDA Project](https://github.com/harsh-bca/EDA-Project)
 A navigation to understand the job market more effectively.it delves into the top-paying and in-demand skills to help find optimal job opportunities for data analyst.
 
 ## 💡 Skills
