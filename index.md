@@ -1,5 +1,34 @@
-## 📢  **" Data Tells The Truth "**
+<h2 class="typewriter-container">📢 <span class="typewriter-text">Data Tells The Truth</span></h2>
 
+<style>
+.typewriter-container {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007acc;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #007acc;
+  width: max-content;
+  margin-bottom: 20px;
+}
+
+.typewriter-text {
+  display: inline-block;
+  animation: typing 2.5s steps(25, end), blink-caret 0.75s step-end infinite;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #007acc }
+}
+</style>
 
 
 <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic" style="width: 120px; border-radius: 50%;" />
