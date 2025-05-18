@@ -67,18 +67,20 @@ A navigation to understand the job market more effectively.it delves into the to
 </a>
 
 - ✅ [Wadhwani Foundation – Soft Skills
-<a href="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/wadhwani%20foundation%20certificate%20.pdf" target="_blank" style="text-decoration: none;">
+<a href="https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf" target="_blank" style="text-decoration: none;">
   <button style="padding: 10px 20px; background-color: #6f42c1; color: white; border: none; border-radius: 6px; cursor: pointer;">
-    View PDF
+    View Certificate
   </button>
 </a>
 
+
 - ✅ [Great Learning – SQL Certification
-<a href="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/SQL%20certification%20.pdf" target="_blank" style="text-decoration: none;">
+<a href="https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20.pdf" target="_blank" style="text-decoration: none;">
   <button style="padding: 10px 20px; background-color: #17a2b8; color: white; border: none; border-radius: 6px; cursor: pointer;">
-    View PDF
+    View Certificate
   </button>
 </a>
+
 
 - ✅ SAEIF Foundation – Personality Development
 <a href="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/SAEIF%20CERTIFICATE.jpg" target="_blank" style="text-decoration: none;">
