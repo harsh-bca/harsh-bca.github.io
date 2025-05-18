@@ -59,10 +59,28 @@ A navigation to understand the job market more effectively.it delves into the to
 
 ## 📜 Certifications
 
-- ✅ [Grastech – Data Science & AI (View Certificate)](https://github.com/harsh-bca/portfolio-assets/blob/main/grastech%20certificate.jpg)
-- ✅ [Wadhwani Foundation – Soft Skills (View PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf)
-- ✅ [Great Learning – SQL Certification (View PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20.pdf)
-- ✅ SAEIF Foundation – Personality Development<h2>SAEIF Certificate</h2>
+- ✅ [Grastech – Data Science & AI
+<a href="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/grastech%20certificate.jpg" target="_blank" style="text-decoration: none;">
+  <button style="padding: 10px 20px; background-color: #0057e7; color: white; border: none; border-radius: 6px; cursor: pointer;">
+    View Certificate
+  </button>
+</a>
+
+- ✅ [Wadhwani Foundation – Soft Skills
+<a href="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/wadhwani%20foundation%20certificate%20.pdf" target="_blank" style="text-decoration: none;">
+  <button style="padding: 10px 20px; background-color: #6f42c1; color: white; border: none; border-radius: 6px; cursor: pointer;">
+    View PDF
+  </button>
+</a>
+
+- ✅ [Great Learning – SQL Certification
+<a href="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/SQL%20certification%20.pdf" target="_blank" style="text-decoration: none;">
+  <button style="padding: 10px 20px; background-color: #17a2b8; color: white; border: none; border-radius: 6px; cursor: pointer;">
+    View PDF
+  </button>
+</a>
+
+- ✅ SAEIF Foundation – Personality Development
 <a href="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/SAEIF%20CERTIFICATE.jpg" target="_blank" style="text-decoration: none;">
   <button style="padding: 10px 20px; background-color: #007acc; color: white; border: none; border-radius: 5px;">
     View Certificate
