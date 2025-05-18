@@ -62,7 +62,13 @@ A navigation to understand the job market more effectively.it delves into the to
 - ✅ [Grastech – Data Science & AI (View Certificate)](https://github.com/harsh-bca/portfolio-assets/blob/main/grastech%20certificate.jpg)
 - ✅ [Wadhwani Foundation – Soft Skills (View PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf)
 - ✅ [Great Learning – SQL Certification (View PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20.pdf)
-- ✅ SAEIF Foundation – Personality Development![View Certificate](https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/SAEIF%20CERTIFICATE.jpg)
+- ✅ SAEIF Foundation – Personality Development<h2>SAEIF Certificate</h2>
+<a href="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/SAEIF%20CERTIFICATE.jpg" target="_blank" style="text-decoration: none;">
+  <button style="padding: 10px 20px; background-color: #007acc; color: white; border: none; border-radius: 5px;">
+    View Certificate
+  </button>
+</a>
+
   
 - ✅ LinkedIn Learning – Data Analysis
 
