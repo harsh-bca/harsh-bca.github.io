@@ -56,6 +56,7 @@ A navigation to understand the job market more effectively.it delves into the to
 | Communication Skills | Data Storytelling                  |
 | Microsoft Azure      | ADF & Azure SQL Database           |                
 
+
 ---
 
 ## 📜 Certifications
