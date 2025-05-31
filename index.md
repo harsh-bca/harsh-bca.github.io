@@ -55,7 +55,8 @@ A navigation to understand the job market more effectively.it delves into the to
 | Excel                | Pivot Tables, VLOOKUP, Charts      |
 | Communication Skills | Data Storytelling                  |
 | Microsoft Azure      | ADF (Azure Data Factory) &         |
-|                      | Azure SQL Database                 |
+|                        Azure SQL Database                 |
+
 ---
 
 ## 📜 Certifications
@@ -97,6 +98,8 @@ A navigation to understand the job market more effectively.it delves into the to
     View Certificate
   </button>
 </a>
+
+---
 
 
 ## 📬 Contact
