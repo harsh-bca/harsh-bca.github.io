@@ -54,8 +54,7 @@ A navigation to understand the job market more effectively.it delves into the to
 | Power BI             | Dashboard Design & KPIs            |
 | Excel                | Pivot Tables, VLOOKUP, Charts      |
 | Communication Skills | Data Storytelling                  |
-| Microsoft Azure      | ADF (Azure Data Factory) &         |
-                         Azure SQL Database                 
+| Microsoft Azure      | ADF & Azure SQL Database           |                
 
 ---
 
