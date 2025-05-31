@@ -54,7 +54,7 @@ A navigation to understand the job market more effectively.it delves into the to
 | Power BI             | Dashboard Design & KPIs            |
 | Excel                | Pivot Tables, VLOOKUP, Charts      |
 | Communication Skills | Data Storytelling                  |
-
+| Microsoft Azure      | ADF (Azure Data Factory) & Azure SQL Database
 ---
 
 ## 📜 Certifications
@@ -90,8 +90,12 @@ A navigation to understand the job market more effectively.it delves into the to
 </a>
 
   
-- ✅ LinkedIn Learning – Data Analysis
-
+- ✅ LinkedIn Learning & Microsoft- Career Essentials in Data Analysis
+- <a href="https://github.com/harsh-bca/portfolio-assets/blob/main/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn_page-0001.jpg?raw=true" target="_blank">
+  <button style="padding: 10px 20px; background-color: #0078D4; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    View Certificate
+  </button>
+</a>
 ---
 
 ## 📬 Contact
