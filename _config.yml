@@ -1,8 +1,10 @@
 title: "Harsh | Data Analyst Portfolio"
 description: "Projects • Resume • Dashboards"
 remote_theme: mmistakes/minimal-mistakes
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 markdown: kramdown
 highlighter: rouge
