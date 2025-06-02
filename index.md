@@ -1,5 +1,7 @@
 ---
 layout: single
+plugins:
+  - jekyll-include-cache
 title: "Hi, I'm Harsh"
 author_profile: true
 ---
