@@ -19,6 +19,22 @@ Hi, I’m **Harsh** — a data analyst passionate about transforming raw data in
 
 ---
 
+## 💥 Why Should You Hire Me?
+
+Because I’m not your average “I’m passionate about data” kind of guy. I actually do stuff. Here's why I’m worth your attention:
+
+- 🔧 I’ve built real projects (not just tutorial copies) using Python, SQL, and Power BI — and they work.
+- 📊 I don’t just clean data; I make it talk. Whether it’s youth trends or Google Analytics, I find the story behind the chaos.
+- 💡 I think logically, act creatively, and communicate clearly.
+- 🎤 From managing big events to handling deadlines solo — I know how to **show up and deliver**.
+- ⚡ I’m still learning — but learning fast. I don’t fake it. I build it.
+
+> Not here to fit in — here to **add something different** to your team.
+
+If that’s the vibe you're hiring for, let’s talk. 👇
+
+---
+
 ## 💼 Featured Projects
 
 Here are some of the projects I’ve worked on:
@@ -46,7 +62,12 @@ Exploratory Data Analysis of job market data.
 
 ## 🧾 Certifications
 
-- ✔️ [Google Analytics Certified](https://www.credly.com/)
+- ✅ [Google Analytics Certified](https://www.credly.com/)  
+  <a href="https://github.com/harsh-bca/portfolio-assets/blob/main/google%20analytics%20certificate_page-0001.jpg?raw=true" target="_blank">
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/google%20analytics%20certificate_page-0001.jpg?raw=true" 
+         alt="Google Analytics Certificate" 
+         style="width: 250px; border-radius: 10px; margin-top: 10px;" />
+  </a>
     
 - ✅ **Career Essentials in Data Analysis – Microsoft & LinkedIn Learning**  
   [View Certificate](https://github.com/harsh-bca/portfolio-assets/blob/main/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn_page-0001.jpg?raw=true)
