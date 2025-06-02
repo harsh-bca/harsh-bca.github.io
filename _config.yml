@@ -1,7 +1,8 @@
-title: Harsh Tripathi
-logo: /assets/github_profile_pic.jpg
-description: Data Analyst
-remote_theme: orderedlist/minimal-mistakes
+title: "Harsh | Data Analyst Portfolio"
+description: "Projects • Resume • Dashboards"
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
 
+markdown: kramdown
+highlighter: rouge
