@@ -4,7 +4,30 @@ title: "Hi, I'm Harsh"
 author_profile: true
 ---
 
-<h2 style="font-size: 28px; font-weight: bold; color: #007acc;">📢 Data Tells The Truth</h2>
+<style>
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007acc;
+  animation: fadeInSlideUp 1.2s ease-out forwards;
+  text-align: center;
+  margin-bottom: 20px;
+}
+</style>
+
+<h2 class="animated-heading">📢 Data Tells The Truth</h2>
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic" style="width: 120px; border-radius: 50%;" />
@@ -62,12 +85,9 @@ Exploratory Data Analysis of job market data.
 
 ## 🧾 Certifications
 
-- ✅ [Google Analytics Certified](https://www.credly.com/)  
-  <a href="https://github.com/harsh-bca/portfolio-assets/blob/main/google%20analytics%20certificate_page-0001.jpg?raw=true" target="_blank">
-    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/google%20analytics%20certificate_page-0001.jpg?raw=true" 
-         alt="Google Analytics Certificate" 
-         style="width: 250px; border-radius: 10px; margin-top: 10px;" />
-  </a>
+- ✅ **Google Analytics – Certification by Google Digital Academy**  
+  [View Certificate](https://github.com/harsh-bca/portfolio-assets/blob/main/google%20analytics%20certificate_page-0001.jpg?raw=true){:target="_blank"}
+
     
 - ✅ **Career Essentials in Data Analysis – Microsoft & LinkedIn Learning**  
   [View Certificate](https://github.com/harsh-bca/portfolio-assets/blob/main/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn_page-0001.jpg?raw=true)
