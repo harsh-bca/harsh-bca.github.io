@@ -64,13 +64,19 @@ Here are some of the projects I’ve worked on:
 
 <div style="border:1px solid #ddd; padding:15px; border-radius:10px; margin-bottom:10px;">
   <h3><a href="https://github.com/harsh-bca/youth-trends-analysis">📈 Youth Trends Analysis</a></h3>
-  <p>Major project analyzing the behavior, technology use, and mental health of Indian youth using Python and Power BI.</p>
+  <p>Analyzed behavioral patterns, technology usage, and mental health trends among Indian youth using survey data. Utilized Python for data cleaning, transformation, and analysis, and Power BI for dynamic visualizations. Derived insights to highlight correlations between digital habits and mental well-being.</p>
 </div>
 
-### 🔹 [EDA Project](https://github.com/harsh-bca/EDA-Project)
-Exploratory Data Analysis of job market data.  
-- Identifies top-paying roles and in-demand skills for Data Analysts.
+ <div style="border:1px solid #ddd; padding:15px; border-radius:10px; margin-bottom:10px;">
+   <h3><a href="https://github.com/harsh-bca/EDA-Project">📈 EDA Project</a></h3>
+  <p>Performed Exploratory Data Analysis on global job market data to uncover industry trends. Identified top-paying roles, hiring patterns, and in-demand skills for Data Analysts. Visualized insights using Python to guide career and skill development strategies.</p>
+ </div>
 
+ <div style="border:1px solid #ddd; padding:15px; border-radius:10px; margin-bottom:10px;">
+   <h3><a href="https://github.com/harsh-bca/National-Family-Health-Survey-Analysis">📊 National Family Health Survey Analysis</a></h3>
+   <p>Analyzed National Family Health Survey (NFHS) data to explore health and demographic trends in India. Focused on factors such as Alcohol consumption,Sexual Violence against women, and healthcare access. Cleaned and processed complex datasets using Python for meaningful insights. Created interactive Power BI dashboards to visualize disparities across states and highlight key policy implications.</p>
+ </div>
+   
 
 ---
 
