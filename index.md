@@ -73,7 +73,7 @@ author_profile: true
   <a href="https://instagram.com/harsh._diaries" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Logo">Instagram
   </a>
-  <a href="https://github.com/harsh-bca/portfolio-assets/blob/main/Harsh_Resume.pdf" target="_blank" class="resume-button">
+  <a href="https://github.com/harsh-bca/portfolio-assets/blob/main/Harsh_Tripathi_Data_Analyst_Resume.pdf" target="_blank" class="resume-button">
     📄 Download My Resume
   </a>
 </div>
@@ -82,9 +82,10 @@ author_profile: true
 
 ## 👨‍💻 About Me
 
-Hi, I’m **Harsh** — a data analyst passionate about transforming raw data into meaningful insights.  
-I specialize in **Python, SQL, Power BI**, and **automation**.  
-Currently building data-driven projects and sharing my journey on [Instagram](https://instagram.com/harsh._diaries).
+Hi, I’m **Harsh** — an aspiring data analyst passionate about solving business problems with data. My current focus is on EdTech, E-commerce, FinTech, Healthcare, and Marketing Analytics—industries that blend innovation with impact. I bring strong skills in **Python, SQL, Power BI**, and **storytelling** with data, backed by real-life projects and certifications.
+
+I’m actively exploring internships, projects, and connections in these domains. Let’s connect if you’re working on something exciting in data and business.
+Currently building data-driven projects and sharing my journey on Instagram🤞
 
 ---
 
