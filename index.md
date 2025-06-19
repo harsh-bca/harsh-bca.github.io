@@ -158,7 +158,7 @@ Because I’m not your average “I’m passionate about data” kind of guy. I 
   </div>
 
   <div>
-    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20_page-0001.jpg" alt="Wadhwani Certificate" style="width: 100%; border-radius: 10px;" />
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20_page-0001.jpg?raw=true" alt="Wadhwani Certificate" style="width: 100%; border-radius: 10px;" />
     <p align="center"><strong>Soft Skills</strong><br>Wadhwani Foundation</p>
   </div>
 
@@ -168,7 +168,7 @@ Because I’m not your average “I’m passionate about data” kind of guy. I 
   </div>
 
   <div>
-    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20_page-0001.jpg" alt="SQL Certification" style="width: 100%; border-radius: 10px;" />
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20_page-0001.jpg?raw=true" alt="SQL Certification" style="width: 100%; border-radius: 10px;" />
     <p align="center"><strong>SQL Certification</strong><br>Great Learning</p>
   </div>
 
