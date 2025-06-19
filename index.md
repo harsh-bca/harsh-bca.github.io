@@ -109,19 +109,20 @@ Because I’m not your average “I’m passionate about data” kind of guy. I 
 <div style="display: flex; flex-direction: column; gap: 20px;">
 
   <div style="border:1px solid #ddd; padding:15px; border-radius:10px;">
-    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/Youth%20trends%20analysis%20banner.png" alt="Youth Trends Analysis Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
+    <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/Youth%20trends%20analysis%20banner.png" alt="Youth Trends Analysis Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
     <h3><a href="https://github.com/harsh-bca/youth-trends-analysis">📈 Youth Trends Analysis</a></h3>
     <p>Analyzed behavioral patterns, technology usage, and mental health trends among Indian youth using survey data. Utilized Python and Power BI to turn raw responses into actionable insights.</p>
   </div>
 
   <div style="border:1px solid #ddd; padding:15px; border-radius:10px;">
-    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/EDA%20project%20banner.png" alt="EDA Project Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
+    <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/EDA%20project%20banner.png
+" alt="EDA Project Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
     <h3><a href="https://github.com/harsh-bca/EDA-Project">📈 EDA Project</a></h3>
     <p>Performed Exploratory Data Analysis on global job market data to uncover hiring trends and skill demand. Used Python for EDA and Matplotlib/Seaborn for visualization.</p>
   </div>
 
   <div style="border:1px solid #ddd; padding:15px; border-radius:10px;">
-    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/NFHS%20data%20analysis%20banner.png" alt="NFHS Project Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
+    <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/NFHS%20data%20analysis%20banner.png" alt="NFHS Project Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
     <h3><a href="https://github.com/harsh-bca/National-Family-Health-Survey-Analysis">📊 NFHS Health Survey</a></h3>
     <p>Explored Indian public health trends using NFHS data. Processed large-scale health and demographic data in Python and visualized findings with Power BI dashboards.</p>
   </div>
@@ -157,7 +158,7 @@ Because I’m not your average “I’m passionate about data” kind of guy. I 
   </div>
 
   <div>
-    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf?raw=true" alt="Wadhwani Certificate" style="width: 100%; border-radius: 10px;" />
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20_page-0001.jpg" alt="Wadhwani Certificate" style="width: 100%; border-radius: 10px;" />
     <p align="center"><strong>Soft Skills</strong><br>Wadhwani Foundation</p>
   </div>
 
@@ -167,7 +168,7 @@ Because I’m not your average “I’m passionate about data” kind of guy. I 
   </div>
 
   <div>
-    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20.pdf?raw=true" alt="SQL Certification" style="width: 100%; border-radius: 10px;" />
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20_page-0001.jpg" alt="SQL Certification" style="width: 100%; border-radius: 10px;" />
     <p align="center"><strong>SQL Certification</strong><br>Great Learning</p>
   </div>
 
