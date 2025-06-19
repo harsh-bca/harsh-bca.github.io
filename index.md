@@ -103,22 +103,31 @@ Because I’m not your average “I’m passionate about data” kind of guy. I 
 
 ---
 
+
 ## 💼 Featured Projects
 
-<div style="border:1px solid #ddd; padding:15px; border-radius:10px; margin-bottom:10px;">
-  <h3><a href="https://github.com/harsh-bca/youth-trends-analysis">📈 Youth Trends Analysis</a></h3>
-  <p>Analyzed behavioral patterns, technology usage, and mental health trends among Indian youth using survey data. Utilized Python for data cleaning, transformation, and analysis, and Power BI for dynamic visualizations. Derived insights to highlight correlations between digital habits and mental well-being.</p>
+<div style="display: flex; flex-direction: column; gap: 20px;">
+
+  <div style="border:1px solid #ddd; padding:15px; border-radius:10px;">
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/Youth%20trends%20analysis%20banner.png" alt="Youth Trends Analysis Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
+    <h3><a href="https://github.com/harsh-bca/youth-trends-analysis">📈 Youth Trends Analysis</a></h3>
+    <p>Analyzed behavioral patterns, technology usage, and mental health trends among Indian youth using survey data. Utilized Python and Power BI to turn raw responses into actionable insights.</p>
+  </div>
+
+  <div style="border:1px solid #ddd; padding:15px; border-radius:10px;">
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/EDA%20project%20banner.png" alt="EDA Project Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
+    <h3><a href="https://github.com/harsh-bca/EDA-Project">📈 EDA Project</a></h3>
+    <p>Performed Exploratory Data Analysis on global job market data to uncover hiring trends and skill demand. Used Python for EDA and Matplotlib/Seaborn for visualization.</p>
+  </div>
+
+  <div style="border:1px solid #ddd; padding:15px; border-radius:10px;">
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/NFHS%20data%20analysis%20banner.png" alt="NFHS Project Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
+    <h3><a href="https://github.com/harsh-bca/National-Family-Health-Survey-Analysis">📊 NFHS Health Survey</a></h3>
+    <p>Explored Indian public health trends using NFHS data. Processed large-scale health and demographic data in Python and visualized findings with Power BI dashboards.</p>
+  </div>
+
 </div>
 
-<div style="border:1px solid #ddd; padding:15px; border-radius:10px; margin-bottom:10px;">
-  <h3><a href="https://github.com/harsh-bca/EDA-Project">📈 EDA Project</a></h3>
-  <p>Performed Exploratory Data Analysis on global job market data to uncover industry trends. Identified top-paying roles, hiring patterns, and in-demand skills for Data Analysts. Visualized insights using Python to guide career and skill development strategies.</p>
-</div>
-
-<div style="border:1px solid #ddd; padding:15px; border-radius:10px; margin-bottom:10px;">
-  <h3><a href="https://github.com/harsh-bca/National-Family-Health-Survey-Analysis">📊 National Family Health Survey Analysis</a></h3>
-  <p>Analyzed NFHS data to explore health and demographic trends in India. Focused on alcohol consumption, sexual violence against women, and access to healthcare. Cleaned and processed complex datasets using Python. Built interactive Power BI dashboards to visualize state-level disparities and policy needs.</p>
-</div>
 
 ---
 
@@ -131,25 +140,44 @@ Because I’m not your average “I’m passionate about data” kind of guy. I 
 
 ---
 
+
+
 ## 🧾 Certifications
 
-- ✅ **Google Analytics – Certification by Google Digital Academy**  
-  [View Certificate](https://github.com/harsh-bca/portfolio-assets/blob/main/google%20analytics%20certificate_page-0001.jpg?raw=true){:target="_blank"}
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
 
-- ✅ **Career Essentials in Data Analysis – Microsoft & LinkedIn Learning**  
-  [View Certificate](https://github.com/harsh-bca/portfolio-assets/blob/main/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn_page-0001.jpg?raw=true)
+  <div>
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/google%20analytics%20certificate_page-0001.jpg?raw=true" alt="Google Analytics Certificate" style="width: 100%; border-radius: 10px;" />
+    <p align="center"><strong>Google Analytics</strong><br>Google Skill Shop</p>
+  </div>
 
-- ✅ **Wadhwani Foundation – Soft Skills**  
-  [View Certificate (PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf)
+  <div>
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn_page-0001.jpg?raw=true" alt="LinkedIn Career Essentials" style="width: 100%; border-radius: 10px;" />
+    <p align="center"><strong>Career Essentials in Data Analysis</strong><br>Microsoft & LinkedIn</p>
+  </div>
 
-- ✅ **Grastech – Data Science & AI**  
-  [View Certificate](https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/grastech%20certificate.jpg)
+  <div>
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20.pdf?raw=true" alt="Wadhwani Certificate" style="width: 100%; border-radius: 10px;" />
+    <p align="center"><strong>Soft Skills</strong><br>Wadhwani Foundation</p>
+  </div>
 
-- ✅ **Great Learning – SQL Certification**  
-  [View Certificate (PDF)](https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20.pdf)
+  <div>
+    <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/grastech%20certificate.jpg" alt="Grastech Certificate" style="width: 100%; border-radius: 10px;" />
+    <p align="center"><strong>Data Science & AI</strong><br>GRAStech</p>
+  </div>
 
-- ✅ **SAEIF Foundation – Personality Development**  
-  [View Certificate](https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/SAEIF%20CERTIFICATE.jpg)
+  <div>
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20.pdf?raw=true" alt="SQL Certification" style="width: 100%; border-radius: 10px;" />
+    <p align="center"><strong>SQL Certification</strong><br>Great Learning</p>
+  </div>
+
+  <div>
+    <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/SAEIF%20CERTIFICATE.jpg" alt="SAEIF Certificate" style="width: 100%; border-radius: 10px;" />
+    <p align="center"><strong>Personality Development</strong><br>SAEIF Foundation</p>
+  </div>
+
+</div>
+
 
 ---
 
