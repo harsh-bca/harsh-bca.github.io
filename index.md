@@ -64,6 +64,28 @@ author_profile: true
 </style>
 
 <h2 class="animated-heading">📢 Data Tells The Truth</h2>
+---
+
+## 🎥 Meet Harsh – Beyond the Resume
+
+<div style="max-width: 800px; margin: 0 auto; padding: 20px; border-radius: 15px; background: #f9f9f9; box-shadow: 0px 4px 12px rgba(0,0,0,0.1); text-align: center;">
+
+  <h2 style="color:#007acc; font-weight: bold; margin-bottom: 15px;">
+    🌟 Intro Video – Why I’m Your Next Best Employee
+  </h2>
+
+  <p style="font-size: 16px; color:#333; margin-bottom: 20px;">
+    Sometimes a CV doesn’t tell the whole story. Here’s a short video where I introduce myself, my journey, 
+    and why I bring confidence, creativity, and data-driven problem solving to the table.
+  </p>
+
+  <iframe src="https://drive.google.com/file/d/1nYuJfaCucRcubVW8LNzWMyibpHnZTDif/preview" 
+          width="100%" height="420" 
+          style="border-radius: 12px; border: none;">
+  </iframe>
+
+</div>
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic" style="width: 120px; border-radius: 50%;" />
