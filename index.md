@@ -16,29 +16,17 @@
       justify-content: flex-start;
       height: 100vh;
       overflow: hidden;
-        <style>
-    <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      height: 100vh;
-      overflow: hidden;
     }
-/* ✅ Certifications Styling */
+
+    /* ✅ Certifications Styling */
     .certificates ul {
       list-style: none;
       padding: 0;
     }
-.certificates li {
+    .certificates li {
       margin: 10px 0;
     }
-.certificates a {
+    .certificates a {
       display: inline-block;
       padding: 8px 14px;
       border-radius: 8px;
@@ -48,42 +36,45 @@
       font-weight: 500;
       transition: 0.3s;
     }
-.certificates a:hover {
+    .certificates a:hover {
       background: linear-gradient(135deg, #2575fc, #6a11cb);
     }
-/* Top Row Layout */
-.top-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;             /* spacing between profile and video */
-  flex-wrap: wrap;       /* stack on smaller screens */
-  margin-bottom: 40px;
-}
-/* Profile Image */
-.profile-image img {
-  max-width: 180px;
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-/* Video Container */
-.video-container iframe {
-  max-width: 480px;
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-}
-/* Tabs */
+
+    /* Top Row Layout */
+    .top-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    /* Profile Image */
+    .profile-image img {
+      max-width: 180px;
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Video Container */
+    .video-container iframe {
+      max-width: 480px;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Tabs */
     .tabs {
       display: flex;
       margin-top: 20px;
       gap: 20px;
     }
-.tab {
+    .tab {
       padding: 10px 20px;
       border-radius: 20px;
       background: rgba(255, 255, 255, 0.1);
@@ -91,10 +82,11 @@
       font-weight: bold;
       transition: all 0.3s ease;
     }
-.tab.active {
+    .tab.active {
       background: #0077b6;
     }
-/* Content */
+
+    /* Content */
     .content {
       margin-top: 20px;
       width: 80%;
@@ -105,43 +97,45 @@
       padding: 20px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     }
-.tab-content {
+    .tab-content {
       display: none;
     }
     .tab-content.active {
       display: block;
     }
-.card {
+    .card {
       background: rgba(255,255,255,0.1);
       margin: 10px;
       padding: 15px;
       border-radius: 12px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.3);
     }
-.card img {
+    .card img {
       width: 40px;
       height: 40px;
       border-radius: 5px;
     }
-.skills img {
+
+    .skills img {
       width: 60px;
       margin: 10px;
       filter: drop-shadow(0 2px 5px rgba(0,0,0,0.4));
     }
-/* Contact */
+
+    /* Contact */
     .contact {
       position: absolute;
       bottom: 15px;
       text-align: center;
     }
-.contact a {
+    .contact a {
       margin: 0 10px;
       color: #fff;
       text-decoration: none;
       font-size: 24px;
       transition: 0.3s;
     }
-   .contact a:hover {
+    .contact a:hover {
       color: #00b4d8;
     }
   </style>
@@ -191,18 +185,19 @@
       </div>
     </div>
 
-  <div class="certificates">
-  <h2>Certifications</h2>
-  <ul>
-    <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/grastech%20certificate.jpg" target="_blank">Data Science & AI – Grastech</a></li>
-    <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20_page-0001.jpg" target="_blank">Soft Skills – Wadhwani Foundation</a></li>
-    <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20_page-0001.jpg" target="_blank">SQL Certification</a></li>
-    <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn_page-0001.jpg" target="_blank">Data Analysis Certification</a></li>
-  </ul>
-</div>
+    <!-- Certifications -->
+    <div id="certifications" class="tab-content certificates">
+      <h2>Certifications</h2>
+      <ul>
+        <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/grastech%20certificate.jpg" target="_blank">Data Science & AI – Grastech</a></li>
+        <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20_page-0001.jpg" target="_blank">Soft Skills – Wadhwani Foundation</a></li>
+        <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20_page-0001.jpg" target="_blank">SQL Certification</a></li>
+        <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn_page-0001.jpg" target="_blank">Data Analysis Certification</a></li>
+      </ul>
+    </div>
 
     <!-- Skills -->
-  <div id="skills" class="tab-content skills">
+    <div id="skills" class="tab-content skills">
       <h2>Skills</h2>
       <img src="python-logo.png" alt="Python">
       <img src="sql-logo.png" alt="SQL">
