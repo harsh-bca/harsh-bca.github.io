@@ -14,8 +14,6 @@
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-      height: 100vh;
-      overflow: hidden;
     }
 /* ✅ Certifications Styling */
   .certificates ul {
@@ -152,8 +150,7 @@
 
 </div>
 
-
-  <!-- Tabs -->
+ <!-- Tabs -->
   <div class="tabs">
     <div class="tab active" onclick="showTab('projects')">Projects</div>
     <div class="tab" onclick="showTab('certifications')">Certifications</div>
