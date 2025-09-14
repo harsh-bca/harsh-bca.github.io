@@ -17,9 +17,8 @@
       height: 100vh;
       overflow: hidden;
     }
-
-    /* ✅ Certifications Styling */
-    .certificates ul {
+/* ✅ Certifications Styling */
+  .certificates ul {
       list-style: none;
       padding: 0;
     }
@@ -39,8 +38,7 @@
     .certificates a:hover {
       background: linear-gradient(135deg, #2575fc, #6a11cb);
     }
-
-    /* Top Row Layout */
+/* Top Row Layout */
     .top-row {
       display: flex;
       justify-content: center;
@@ -49,8 +47,7 @@
       flex-wrap: wrap;
       margin-bottom: 40px;
     }
-
-    /* Profile Image */
+/* Profile Image */
     .profile-image img {
       max-width: 180px;
       width: 100%;
@@ -59,16 +56,14 @@
       object-fit: cover;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
-
-    /* Video Container */
+/* Video Container */
     .video-container iframe {
       max-width: 480px;
       width: 100%;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
-
-    /* Tabs */
+/* Tabs */
     .tabs {
       display: flex;
       margin-top: 20px;
@@ -85,8 +80,7 @@
     .tab.active {
       background: #0077b6;
     }
-
-    /* Content */
+/* Content */
     .content {
       margin-top: 20px;
       width: 80%;
@@ -100,7 +94,7 @@
     .tab-content {
       display: none;
     }
-    .tab-content.active {
+  .tab-content.active {
       display: block;
     }
     .card {
@@ -115,15 +109,13 @@
       height: 40px;
       border-radius: 5px;
     }
-
-    .skills img {
+.skills img {
       width: 60px;
       margin: 10px;
       filter: drop-shadow(0 2px 5px rgba(0,0,0,0.4));
     }
-
-    /* Contact */
-    .contact {
+/* Contact */
+  .contact {
       position: absolute;
       bottom: 15px;
       text-align: center;
@@ -186,7 +178,7 @@
     </div>
 
     <!-- Certifications -->
-    <div id="certifications" class="tab-content certificates">
+  <div id="certifications" class="tab-content certificates">
       <h2>Certifications</h2>
       <ul>
         <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/grastech%20certificate.jpg" target="_blank">Data Science & AI – Grastech</a></li>
@@ -197,7 +189,7 @@
     </div>
 
     <!-- Skills -->
-    <div id="skills" class="tab-content skills">
+  <div id="skills" class="tab-content skills">
       <h2>Skills</h2>
       <img src="python-logo.png" alt="Python">
       <img src="sql-logo.png" alt="SQL">
