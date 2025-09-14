@@ -5,6 +5,13 @@ author_profile: true
 ---
 
 <style>
+/* Gradient background */
+body {
+  background: linear-gradient(135deg, #e3f2fd, #e8f5e9);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
 /* Animation */
 @keyframes fadeInSlideUp {
   0% {opacity: 0; transform: translateY(30px);}
@@ -20,12 +27,18 @@ author_profile: true
   margin-bottom: 20px;
 }
 
+/* Section container */
 .section {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
 }
 
+/* Cards */
 .flex-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -39,7 +52,7 @@ author_profile: true
   background:#fff; 
   transition: all 0.3s ease;
 }
-.card:hover {transform: translateY(-5px); box-shadow:0 6px 16px rgba(0,0,0,0.1);}
+.card:hover {transform: translateY(-5px); box-shadow:0 6px 16px rgba(0,0,0,0.15);}
 
 .resume-button {
   display: inline-block;
@@ -57,14 +70,39 @@ author_profile: true
 
 ---
 
-## 🚀 Quick Intro
-Hi, I’m **Harsh** — Data Analyst passionate about **turning raw data into real-time business solutions**.  
-I specialize in **automation, dashboarding, and data storytelling** across EdTech, FinTech, E-commerce, and Marketing Analytics.  
+## 🎥 Meet Harsh – Beyond the Resume
 
-<div align="center">
-  <a href="https://github.com/harsh-bca/portfolio-assets/blob/main/Harsh_Tripathi_Data_Analyst_Resume.pdf" target="_blank" class="resume-button">
-    📄 Download Resume
-  </a>
+<div class="section" style="text-align:center;">
+
+  <h2 style="color:#007acc; font-weight: bold; margin-bottom: 15px;">
+    🌟 Intro Video – Why I’m Your Next Best Employee
+  </h2>
+
+  <p style="font-size: 16px; color:#333; margin-bottom: 20px;">
+    Sometimes a CV doesn’t tell the whole story. Here’s a short video where I introduce myself, my journey, 
+    and why I bring confidence, creativity, and data-driven problem solving to the table.
+  </p>
+
+  <!-- Intro Video Embed -->
+  <iframe src="https://drive.google.com/file/d/1nYuJfaCucRcubVW8LNzWMyibpHnZTDif/preview" 
+          width="100%" height="420" 
+          style="border-radius: 12px; border: none;">
+  </iframe>
+
+  <!-- Profile Photo -->
+  <div style="margin-top:20px;">
+    <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" 
+         alt="Harsh Profile Pic" 
+         style="width: 150px; border-radius: 50%; border: 3px solid #007acc;" />
+  </div>
+
+  <!-- Social Links -->
+  <div class="social-links" style="margin-top:20px; display:flex; justify-content:center; gap:20px;">
+    <a href="https://instagram.com/harsh._diaries" target="_blank">📷 Instagram</a>
+    <a href="https://github.com/harsh-bca/portfolio-assets/blob/main/Harsh_Tripathi_Data_Analyst_Resume.pdf" 
+       target="_blank" class="resume-button">📄 Download My Resume</a>
+  </div>
+
 </div>
 
 ---
@@ -181,9 +219,42 @@ I specialize in **automation, dashboarding, and data storytelling** across EdTec
 ---
 
 ## 🎓 Certifications
-*(Display as carousel/slider for compactness)*  
-Google Analytics • Microsoft Career Essentials • SQL (Great Learning) • Data Science & AI (GRAStech) • Soft Skills (Wadhwani) • Personality Development  
 
+<div class="section">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
+
+  <div>
+      <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/google%20analytics%20certificate_page-0001.jpg?raw=true" alt="Google Analytics Certificate" style="width: 100%; border-radius: 10px;" />
+      <p align="center"><strong>Google Analytics</strong><br>Google Skill Shop</p>
+    </div>
+
+  <div>
+      <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn_page-0001.jpg?raw=true" alt="LinkedIn Career Essentials" style="width: 100%; border-radius: 10px;" />
+      <p align="center"><strong>Career Essentials in Data Analysis</strong><br>Microsoft & LinkedIn</p>
+    </div>
+
+  <div>
+      <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/wadhwani%20foundation%20certificate%20_page-0001.jpg?raw=true" alt="Wadhwani Certificate" style="width: 100%; border-radius: 10px;" />
+      <p align="center"><strong>Soft Skills</strong><br>Wadhwani Foundation</p>
+    </div>
+
+  <div>
+      <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/grastech%20certificate.jpg" alt="Grastech Certificate" style="width: 100%; border-radius: 10px;" />
+      <p align="center"><strong>Data Science & AI</strong><br>GRAStech</p>
+    </div>
+
+  <div>
+      <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/SQL%20certification%20_page-0001.jpg?raw=true" alt="SQL Certification" style="width: 100%; border-radius: 10px;" />
+      <p align="center"><strong>SQL Certification</strong><br>Great Learning</p>
+    </div>
+
+   <div>
+      <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/SAEIF%20CERTIFICATE.jpg" alt="SAEIF Certificate" style="width: 100%; border-radius: 10px;" />
+      <p align="center"><strong>Personality Development</strong><br>SAEIF Foundation</p>
+    </div>
+
+  </div>
+</div>
 ---
 
 ## 📬 Contact
