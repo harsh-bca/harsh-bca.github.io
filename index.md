@@ -27,7 +27,7 @@ author_profile: true
   color: white;
 }
 
-/* ===== Theme Toggle Button ===== */
+/* Toggle button improvements */
 .theme-toggle {
   position: fixed;
   top: 15px;
@@ -39,32 +39,53 @@ author_profile: true
   padding: 6px 12px;
   cursor: pointer;
   font-weight: bold;
-  z-index: 1001;
+  z-index: 1100; /* Increased */
   transition: background 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 .theme-toggle:hover {
   background: #005f99;
 }
 
-/* ===== Light Theme Styles ===== */
+/* Improved toggle code to handle rapid toggles and force some styles */
+const themeToggle = document.getElementById('themeToggle');
+
+// On page load, apply saved theme
+if (localStorage.getItem('theme') === 'light') {
+  document.body.classList.add('light-mode');
+} else {
+  // Ensure dark mode if no preference
+  document.body.classList.remove('light-mode');
+}
+
+themeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('light-mode');
+  if (document.body.classList.contains('light-mode')) {
+    localStorage.setItem('theme', 'light');
+  } else {
+    localStorage.removeItem('theme');
+  }
+});
+    /* Force background and text color in light mode - override any other styles */
+
 body.light-mode {
-  background: #f4f7fa;
-  color: #222;
+  background: #f4f7fa !important;
+  color: #222 !important;
 }
-body.light-mode a.top-nav-link {
-  color: #005f99;
+body.light-mode .top-nav a.top-nav-link {
+  color: #005f99 !important;
 }
-body.light-mode a.top-nav-link:hover {
-  background: #005f99;
-  color: white;
+body.light-mode .top-nav a.top-nav-link:hover {
+  background: #005f99 !important;
+  color: #fff !important;
 }
 body.light-mode div.intro-container,
 body.light-mode div.services-container,
 body.light-mode div.certificates-container,
 body.light-mode div.contact-form-container {
-  background: white;
-  color: #222;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: #fff !important;
+  color: #222 !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
 }
 
 /* ===== Fade Animation ===== */
@@ -85,10 +106,10 @@ body.light-mode div.contact-form-container {
 <!-- Theme toggle button -->
 <button class="theme-toggle" id="themeToggle">Toggle Light/Dark</button>
 
-<!-- ✅ Top Navigation -->
+<!-- Updated Navbar order -->
 <div class="top-nav">
+  <a href="#services" class="top-nav-link">Services</a>  <!-- Moved services first -->
   <a href="#my-work" class="top-nav-link">My Work</a>
-  <a href="#services" class="top-nav-link">Services</a> 
   <a href="#certificates" class="top-nav-link">Certificates</a>
   <a href="#contact" class="top-nav-link">Contact</a>
 </div>
