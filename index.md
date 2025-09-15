@@ -1,247 +1,283 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Harsh | Data Analyst Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsh Tripathi | Data Analyst Portfolio</title>
   <style>
-    /* ===== Reset ===== */
+    /* === Global Styles === */
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      scroll-behavior: smooth;
     }
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9f9f9;
-      color: #333;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f2027;
+      color: #fff;
+      line-height: 1.6;
     }
-/* ===== Navbar ===== */
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    h1, h2, h3 {
+      margin-bottom: 10px;
+    }
+/* === Navbar === */
     nav {
+      width: 100%;
+      background: #1b2735;
+      padding: 15px 40px;
       display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 20px;
-      background: white;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      position: sticky;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
       top: 0;
       z-index: 1000;
     }
-    nav a {
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
+    nav .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: #fff;
       transition: 0.3s;
     }
-    nav a:hover {
-      color: #0077ff;
+    nav ul li a:hover {
+      color: #00adb5;
     }
-/* ===== Hero Section ===== */
+/* === Hero Section === */
     .hero {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 80px 10%;
-      min-height: 90vh;
+      padding: 100px 50px;
+      min-height: 100vh;
     }
     .hero-text {
-      max-width: 550px;
+      max-width: 600px;
     }
     .hero-text h1 {
-      font-size: 42px;
-      font-weight: bold;
-      margin-bottom: 10px;
+      font-size: 36px;
     }
     .hero-text h2 {
-      font-size: 24px;
-      color: #0077ff;
-      margin-bottom: 20px;
-      white-space: nowrap;
-      border-right: 2px solid;
+      font-size: 28px;
+      color: #00adb5;
+      height: 40px;
       overflow: hidden;
-      animation: typing 3.5s steps(30, end) infinite, blink 0.75s step-end infinite;
-    }
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-    @keyframes blink {
-      50% { border-color: transparent }
     }
     .hero-text p {
+      margin: 20px 0;
       font-size: 16px;
-      line-height: 1.6;
-      margin-bottom: 20px;
+      color: #ddd;
     }
-.btn {
+    .social-links {
+      margin: 20px 0;
+    }
+    .social-links a {
+      margin-right: 15px;
+      font-size: 18px;
+    }
+    .resume-btn {
       display: inline-block;
       padding: 10px 20px;
-      margin: 10px 10px 0 0;
-      font-size: 15px;
-      border-radius: 6px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .btn-primary {
-      background: #0077ff;
-      color: white;
-    }
-    .btn-primary:hover {
-      background: #005fcc;
-    }
-    .btn-outline {
-      border: 2px solid #0077ff;
-      color: #0077ff;
-    }
-    .btn-outline:hover {
-      background: #0077ff;
-      color: white;
-    }
-.social-links a {
-      margin-right: 15px;
-      text-decoration: none;
-      font-size: 20px;
-      color: #333;
-    }
-    .social-links a:hover {
-      color: #0077ff;
-    }/* Profile Pic Glow */
-    .hero-image {
-      position: relative;
-      width: 300px;
-      height: 300px;
-    }
-    .hero-image::before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 320px;
-      height: 320px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(0,119,255,0.4), transparent 70%);
-      z-index: 0;
-      animation: pulse 3s infinite;
-    }
-    .hero-image img {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      border: 5px solid white;
-      z-index: 1;
-    }
-    @keyframes pulse {
-      0% { transform: translate(-50%, -50%) scale(1); opacity: 0.7; }
-      50% { transform: translate(-50%, -50%) scale(1.1); opacity: 0.4; }
-      100% { transform: translate(-50%, -50%) scale(1); opacity: 0.7; }
-    }
-/* ===== Services Section ===== */
-    .services {
-      padding: 80px 10%;
-      text-align: center;
-      background: #fff;
-    }
-    .services h2 {
-      font-size: 36px;
-      margin-bottom: 40px;
-      color: #0077ff;
-    }
-    .service-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-    }
-    .card {
-      background: #f9f9f9;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    }
-    .card h3 {
+      background: #00adb5;
+      border-radius: 5px;
       margin-top: 15px;
-      font-size: 20px;
-      color: #333;
     }
-    .card p {
-      font-size: 15px;
-      margin-top: 10px;
-      line-height: 1.6;
-      color: #555;
+/* Profile Image */
+    .profile-pic {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      border: 5px solid #00adb5;
+      box-shadow: 0 0 30px #00adb5;
+      object-fit: cover;
     }
-    .icon {
-      font-size: 40px;
-      color: #0077ff;
+/* === Section Layouts === */
+    section {
+      padding: 80px 50px;
+      text-align: center;
     }
-
+    section h2 {
+      margin-bottom: 40px;
+      font-size: 28px;
+      color: #00adb5;
+    }
+/* === Services Section === */
+    .services {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .service-card {
+      background: #1b2735;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+/* === Skills Section === */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .skill-item {
+      background: #1b2735;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+/* === Projects Section === */
+    .projects {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .project-card {
+      background: #1b2735;
+      padding: 20px;
+      width: 280px;
+      border-radius: 10px;
+    }
+/* === Contact Section === */
+    .contact {
+      max-width: 600px;
+      margin: auto;
+    }
+    .contact a {
+      display: block;
+      margin: 10px 0;
+      color: #00adb5;
+    }
   </style>
 </head>
 <body>
-
-  <!-- ===== Navbar ===== -->
+  <!-- === Navbar === -->
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <div class="logo">Harsh | Data Analyst</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://github.com/harsh-bca/portfolio-assets/blob/main/Harsh_Tripathi_Data_Analyst_Resume.pdf" target="_blank">Resume</a></li>
+    </ul>
   </nav>
 
-  <!-- ===== Hero Section ===== -->
+  <!-- === Hero Section === -->
   <section class="hero" id="home">
     <div class="hero-text">
-      <h1>Hi, I'm Harsh</h1>
-      <h2>I am a Data Analyst / Automation Specialist</h2>
+      <h1>Hi, I’m Harsh</h1>
+      <h2>I am a <span id="role"></span></h2>
       <p>
-        I see data not just as a record of the past, but as the blueprint for the future.
-        By applying AI and machine learning, I make that blueprint interactive.
-        I turn raw numbers into predictive insights and strategic action,
+        I see data not just as a record of the past, but as the blueprint for the future. 
+        By applying AI and machine learning, I make that blueprint interactive. 
+        I turn raw numbers into predictive insights and strategic action, 
         revealing the 'why' behind the 'what' to automate solutions and drive intelligent growth.
       </p>
       <div class="social-links">
-        <a href="https://www.linkedin.com/in/harsh-tripathi-64376333a/" target="_blank">🔗 LinkedIn</a>
-        <a href="https://github.com/harsh-bca" target="_blank">💻 GitHub</a>
-        <a href="https://www.instagram.com/harshanalyst2025" target="_blank">📷 Instagram</a>
+        <a href="https://linkedin.com/in/harsh-tripathi-64376333a">LinkedIn</a>
+        <a href="https://github.com/harsh-bca">GitHub</a>
+        <a href="https://instagram.com/harsh._diaries">Instagram</a>
       </div>
-      <a href="https://github.com/harsh-bca/portfolio-assets/blob/main/Harsh_Tripathi_Data_Analyst_Resume.pdf" 
-         target="_blank" class="btn btn-primary">📄 Download Resume</a>
-      <a href="#contact" class="btn btn-outline">💬 Hire Me</a>
+      <a href="https://github.com/harsh-bca/portfolio-assets/blob/main/Harsh_Tripathi_Data_Analyst_Resume.pdf" class="resume-btn" target="_blank">📄 Download Resume</a>
     </div>
-
-  <div class="hero-image">
-      <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Pic">
+    <div>
+      <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Tripathi" class="profile-pic" />
     </div>
   </section>
 
-  <!-- ===== Services Section ===== -->
-  <section class="services" id="services">
+  <!-- === Services Section === -->
+  <section id="services">
     <h2>My Services</h2>
-    <div class="service-cards">
-      <div class="card">
-        <div class="icon">📊</div>
-        <h3>Dashboard Creation</h3>
-        <p>Interactive dashboards in Power BI & Tableau to visualize KPIs and enable data-driven decision making.</p>
+    <div class="services">
+      <div class="service-card">📊 Dashboard Creation</div>
+      <div class="service-card">⚡ Automated Reporting</div>
+      <div class="service-card">📈 Data Analysis & Insights</div>
+    </div>
+  </section>
+
+  <!-- === Skills Section === -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">🐍 Python</div>
+      <div class="skill-item">🗄️ SQL</div>
+      <div class="skill-item">📊 Power BI</div>
+      <div class="skill-item">📊 Tableau</div>
+      <div class="skill-item">📈 Excel</div>
+      <div class="skill-item">☁️ Azure</div>
+    </div>
+  </section>
+
+  <!-- === Projects Section === -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Fee Dashboard</h3>
+        <p>Built an interactive dashboard in Looker Studio for college fee tracking and automated reminders.</p>
+        <a href="#">🔗 View Project</a>
       </div>
-      <div class="card">
-        <div class="icon">⚙️</div>
-        <h3>Automated Reporting</h3>
-        <p>Automation of recurring reports using Python, SQL, and APIs to save time and reduce errors.</p>
-      </div>
-      <div class="card">
-        <div class="icon">📈</div>
-        <h3>Data Insights</h3>
-        <p>Deep-dive analysis to uncover trends, optimize processes, and provide actionable business recommendations.</p>
+      <div class="project-card">
+        <h3>Youth Trends Analysis</h3>
+        <p>Analyzed NFHS & survey data to identify behavioral trends among youth for policy insights.</p>
+        <a href="#">🔗 View Project</a>
       </div>
     </div>
   </section>
 
+  <!-- === Contact Section === -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <a href="mailto:harsh.tripati21@gmail.com">📧 harsh.tripati21@gmail.com</a>
+      <a href="https://linkedin.com/in/harsh-tripathi-64376333a">🔗 LinkedIn</a>
+      <a href="https://instagram.com/harsh._diaries">📷 Instagram</a>
+    </div>
+  </section>
+
+  <!-- === Animated Role Text === -->
+  <script>
+    const roles = ["Data Analyst", "Automation Specialist"];
+    let roleIndex = 0;
+    let charIndex = 0;
+    const roleElement = document.getElementById("role");
+
+    function typeRole() {
+      if (charIndex < roles[roleIndex].length) {
+        roleElement.textContent += roles[roleIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(typeRole, 150);
+      } else {
+        setTimeout(eraseRole, 2000);
+      }
+    }
+
+    function eraseRole() {
+      if (charIndex > 0) {
+        roleElement.textContent = roles[roleIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(eraseRole, 100);
+      } else {
+        roleIndex = (roleIndex + 1) % roles.length;
+        setTimeout(typeRole, 200);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", typeRole);
+  </script>
 </body>
 </html>
