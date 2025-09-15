@@ -44,3 +44,38 @@
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 </style>
+<!-- === About Me Section === -->
+<section class="about">
+  <h2>👨‍💻 About Me</h2>
+  <p>
+    Hi, I’m <b>Harsh</b> — aspiring Data Analyst skilled in 
+    <b>Python, SQL, Power BI</b>, and <b>data storytelling</b>.  
+    My interests lie in <b>EdTech, FinTech, E-commerce,</b> and <b>Healthcare</b> domains.  
+    I love exploring data to create insights that drive business impact.
+  </p>
+</section>
+
+<style>
+/* About Me */
+.about {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.about h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+</style>
+
