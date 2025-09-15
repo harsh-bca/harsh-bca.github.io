@@ -27,67 +27,6 @@ author_profile: true
   color: white;
 }
 
-/* Toggle button improvements */
-.theme-toggle {
-  position: fixed;
-  top: 15px;
-  left: 30px;
-  background: #007acc;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 6px 12px;
-  cursor: pointer;
-  font-weight: bold;
-  z-index: 1100; /* Increased */
-  transition: background 0.3s ease;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-}
-.theme-toggle:hover {
-  background: #005f99;
-}
-
-/* Improved toggle code to handle rapid toggles and force some styles */
-const themeToggle = document.getElementById('themeToggle');
-
-// On page load, apply saved theme
-if (localStorage.getItem('theme') === 'light') {
-  document.body.classList.add('light-mode');
-} else {
-  // Ensure dark mode if no preference
-  document.body.classList.remove('light-mode');
-}
-
-themeToggle.addEventListener('click', () => {
-  document.body.classList.toggle('light-mode');
-  if (document.body.classList.contains('light-mode')) {
-    localStorage.setItem('theme', 'light');
-  } else {
-    localStorage.removeItem('theme');
-  }
-});
-    /* Force background and text color in light mode - override any other styles */
-
-body.light-mode {
-  background: #f4f7fa !important;
-  color: #222 !important;
-}
-body.light-mode .top-nav a.top-nav-link {
-  color: #005f99 !important;
-}
-body.light-mode .top-nav a.top-nav-link:hover {
-  background: #005f99 !important;
-  color: #fff !important;
-}
-body.light-mode div.intro-container,
-body.light-mode div.services-container,
-body.light-mode div.certificates-container,
-body.light-mode div.contact-form-container {
-  background: #fff !important;
-  color: #222 !important;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
-}
-
 /* ===== Fade Animation ===== */
 @keyframes fadeInSlideUp {
   0% { opacity: 0; transform: translateY(30px); }
@@ -103,8 +42,6 @@ body.light-mode div.contact-form-container {
 }
 </style>
 
-<!-- Theme toggle button -->
-<button class="theme-toggle" id="themeToggle">Toggle Light/Dark</button>
 
 <!-- Updated Navbar order -->
 <div class="top-nav">
