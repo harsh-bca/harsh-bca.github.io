@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Hi, I'm Harsh"
 author_profile: true
 ---
 
@@ -383,28 +382,17 @@ body {
   <input type="hidden" name="_subject" value="New contact from portfolio">
     <button type="submit">Send</button>
   </form>
-  <p class="form-note">Prefer email? <a href="mailto:harsh.tripati21@gmail.com">harsh.tripati21@gmail.com</a></p>
 </div>
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  const navToggle = document.getElementById('navToggle');
-  const navLinks = document.getElementById('navLinks');
-  if (navToggle && navLinks) {
-    navToggle.addEventListener('click', () => {
-      const isOpen = navLinks.classList.toggle('open');
-      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    });
+document.addEventListener('DOMContentLoaded',function(){
+  const roles = document.querySelectorAll('.animated-roles .role');
+  let idx=0;
+  function showRole(i){
+    roles.forEach((role,j)=>role.style.display = (i===j) ? 'inline' : 'none');
   }
-  const themeToggle = document.getElementById('themeToggle');
-  if (themeToggle) {
-    if (localStorage.getItem('theme') === 'light') {
-      document.body.classList.add('light-mode');
-    }
-    themeToggle.addEventListener('click', () => {
-      document.body.classList.toggle('light-mode');
-      if (document.body.classList.contains('light-mode')) localStorage.setItem('theme', 'light');
-      else localStorage.removeItem('theme');
-    });
-  }
+  showRole(0); // Show first role
+  setTimeout(()=>{ showRole(1); }, 2000); // Show second after 2s
+  setTimeout(()=>{ showRole(2); }, 4000); // Show third after 4s
 });
 </script>
+
