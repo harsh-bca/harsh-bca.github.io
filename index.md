@@ -4,58 +4,10 @@ title: "Hi, I'm Harsh"
 author_profile: true
 ---
 
-<!-- Animated Intro Section -->
-<div class="animated-intro">
-  <h1 id="intro-name">Hi, I'm Harsh</h1>
-  <div class="animated-roles">
-    <span class="role">Data Analyst</span>
-    <span class="role">Reporting Analyst</span>
-    <span class="role">Operations Analyst</span>
-  </div>
-</div>
-
 <style>
-/* Animated Intro CSS */
-.animated-intro {
-  text-align: center;
-  margin-bottom: 30px;
-}
-#intro-name {
-  font-size: 32px;
-  font-weight: bold;
-  color: #007acc;
-  opacity: 0;
-  animation: fadeIn 1.5s forwards;
-  animation-delay: 0.3s;
-  margin-bottom: 10px;
-}
-.animated-roles {
-  font-size: 24px;
-  font-weight: 600;
-  color: #007acc;
-  height: 30px;
-  position: relative;
-  overflow: hidden;
-}
-.role {
-  position: absolute;
-  width: 100%;
-  opacity: 0;
-  animation-fill-mode: forwards;
-  animation-name: fadeInUp;
-  animation-duration: 1s;
-}
-.role:nth-child(1) { animation-delay: 2s; }
-.role:nth-child(2) { animation-delay: 4s; }
-.role:nth-child(3) { animation-delay: 6s; }
-@keyframes fadeIn { to { opacity: 1; } }
-@keyframes fadeInUp {
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
 
 /* General styles */
-body { padding-top: 72px; }
+  body { padding-top: 72px; }
 .top-nav {
   display: flex;
   gap: 18px;
@@ -123,11 +75,19 @@ body { padding-top: 72px; }
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(2,6,23,0.04);
   text-align: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: 12px;
   align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
+
+.service-card:hover {
+  transform: scale(1.05); /* Slight pop up */
+  box-shadow: 0 12px 24px rgba(2,6,23,0.12); /* Enhanced shadow */
+  cursor: pointer;
+}
+
 .service-icon {
   width: 64px;
   height: 64px;
@@ -221,8 +181,79 @@ body { padding-top: 72px; }
     <a href="#contact" class="top-nav-link">Contact</a>
   </div>
 </div>
+<!-- Put this animated intro section right after nav bar -->
+<div class="animated-intro">
+  <h1 id="intro-name">Hi, I'm Harsh</h1>
+  <div class="animated-roles">
+    <span class="role">Data Analyst</span>
+    <span class="role">Reporting Analyst</span>
+    <span class="role">Operations Analyst</span>
+  </div>
+</div>
+
+<style>
+/* Your animated intro CSS here */
+.animated-intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#intro-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #007acc;
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+  animation-delay: 0.3s;
+  margin-bottom: 10px;
+}
+.animated-roles {
+  font-size: 24px;
+  font-weight: 600;
+  color: #007acc;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.role {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+}
+.role:nth-child(1) { animation-delay: 2s; }
+.role:nth-child(2) { animation-delay: 4s; }
+.role:nth-child(3) { animation-delay: 6s; }
+@keyframes fadeIn { to { opacity: 1; } }
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
 
 <h2 class="animated-heading">📢 Data Tells The Truth</h2>
+
+.animated-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007acc;
+  opacity: 0;
+  animation: fadeInSlideUp 1.2s ease-out forwards;
+  animation-delay: 0.5s;
+  text-align: center;
+  margin-bottom: 20px;
+}
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 <!-- Profile Photo -->
 <div style="max-width: 200px; margin: 30px auto 10px auto; border-radius: 50%; overflow: hidden; box-shadow: 0 0 15px #007accbb;">
@@ -314,7 +345,7 @@ body { padding-top: 72px; }
     <p align="center"><strong>Soft Skills</strong><br>Wadhwani Foundation</p>
   </div>
   <div>
-    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/Quantium%20data%20analysis%20certificate.pdf?raw=true" alt="Data Analytics Certification" style="width: 100%; border-radius: 10px;" />
+    <img src="https://github.com/harsh-bca/portfolio-assets/blob/main/Quantium%20data%20analysis%20certificate_page-0001.jpg?raw=true" alt="Data Analytics Certification" style="width: 100%; border-radius: 10px;" />
     <p align="center"><strong>Data Analytics Job Simulation</strong><br>Quantum Data Analytics Certificate</p>
   </div>
   <div>
