@@ -324,6 +324,11 @@ body {
     <h3><a href="https://github.com/harsh-bca/National-Family-Health-Survey-Analysis">📊 NFHS Health Survey</a></h3>
     <p>Explored Indian public health trends using NFHS data. Processed large-scale health and demographic data in Python and visualized findings with Power BI dashboards.</p>
   </div>
+   <div style="border:1px solid #ddd; padding:15px; border-radius:10px;">
+    <img src="https://raw.github.com/harsh-bca/College-Fee-Dashboard/main/Fee%20compliance%20dashboard.png" alt="Fee Dashboard Banner" style="width:100%; border-radius: 10px; margin-bottom: 10px;" />
+    <h3><a href="https://github.com/harsh-bca/College-Fee-Dashboard"> Fee Compliance Dashboard</a></h3>
+    <p>A private college was facing problems in manual student fee tracking in Excel, leading to time-consuming and burnout to the faculty, So developed two interactive dashboards with Google Data Studio, cleaned the dataset with Excel, and automated them with Python to reduce the manual work and boost overall process effiency </p>
+  </div>
 </div>
 
 ---
