@@ -250,14 +250,12 @@ body {
   <h1 id="intro-name">Hi, I'm Harsh</h1>
   <div class="animated-roles">
     <span class="role">Data Analyst</span>
-    <span class="role">Automation Specialist</span>
-    <span class="role">Process Optimizer</span>
   </div>
 </div>
-<h2 class="animated-heading">📢 Data Tells The Truth</h2>
+<h2 class="animated-heading">📢 Every Dataset has a story - I make it Speak </h2>
 <!-- Profile Photo -->
 <div style="max-width: 200px; margin: 30px auto 10px auto; border-radius: 50%; overflow: hidden; box-shadow: 0 0 15px #007accbb;">
-  <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Photo" style="width: 100%; display: block;" />
+  <img src="https://raw.github.com/harsh-bca/portfolio-assets/main/IMG_20250205_144203_180.jpg" alt="Harsh Profile Photo" style="width: 100%; display: block;" />
 </div>
 <!-- Intro Video -->
 <div id="intro-video" class="intro-container" style="max-width: 800px; margin: 0 auto; padding: 20px; border-radius: 15px; background: #f9f9f9; box-shadow: 0px 4px 12px rgba(0,0,0,0.1); text-align: center;">
