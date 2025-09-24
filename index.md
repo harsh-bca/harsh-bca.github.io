@@ -4,6 +4,9 @@ author_profile: true
 ---
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding-top: 72px;
   font-family: Arial, sans-serif;
@@ -231,32 +234,31 @@ body {
   .nav-links a { padding: 10px; display: block; }
 }
 </style>
-
 <!-- Navigation -->
 <div class="top-nav" role="navigation" aria-label="Main navigation">
   <button id="navToggle" aria-expanded="false" aria-controls="navLinks">☰</button>
   <div id="navLinks" class="nav-links">
+    <a href="#" class="top-nav-link">Home</a>
     <a href="#services" class="top-nav-link">Services</a>
     <a href="#my-work" class="top-nav-link">My Work</a>
     <a href="#certificates" class="top-nav-link">Certificates</a>
     <a href="#contact" class="top-nav-link">Contact</a>
   </div>
 </div>
-
 <!-- Animated Intro Section -->
 <div class="animated-intro">
   <h1 id="intro-name">Hi, I'm Harsh</h1>
   <div class="animated-roles">
+    <span class="role">Data Analyst</span>
+    <span class="role">Automation Specialist</span>
+    <span class="role">Process Optimizer</span>
   </div>
 </div>
-
 <h2 class="animated-heading">📢 Data Tells The Truth</h2>
-
 <!-- Profile Photo -->
 <div style="max-width: 200px; margin: 30px auto 10px auto; border-radius: 50%; overflow: hidden; box-shadow: 0 0 15px #007accbb;">
   <img src="https://raw.githubusercontent.com/harsh-bca/portfolio-assets/main/github_profile_pic.jpg" alt="Harsh Profile Photo" style="width: 100%; display: block;" />
 </div>
-
 <!-- Intro Video -->
 <div id="intro-video" class="intro-container" style="max-width: 800px; margin: 0 auto; padding: 20px; border-radius: 15px; background: #f9f9f9; box-shadow: 0px 4px 12px rgba(0,0,0,0.1); text-align: center;">
   <h2 style="color:#007acc; font-weight: bold; margin-bottom: 15px;">
@@ -268,7 +270,6 @@ body {
   </p>
   <iframe src="https://drive.google.com/file/d/1nYuJfaCucRcubVW8LNzWMyibpHnZTDif/preview" width="100%" height="420" style="border-radius: 12px; border: none;"></iframe>
 </div>
-
 <!-- Services -->
 <div id="services" class="services-container">
   <h2 style="color:#007acc; font-weight:bold; margin-bottom:18px; text-align:center;">
@@ -306,7 +307,6 @@ body {
     </div>
   </div>
 </div>
-
 ## 💼 Featured Projects <a id="my-work"></a>
 <div style="display: flex; flex-direction: column; gap: 20px;">
   <div style="border:1px solid #ddd; padding:15px; border-radius:10px;">
@@ -330,9 +330,7 @@ body {
     <p>A private college was facing problems in manual student fee tracking in Excel, leading to time-consuming and burnout to the faculty, So developed two interactive dashboards with Google Data Studio, cleaned the dataset with Excel, and automated them with Python to reduce the manual work and boost overall process effiency </p>
   </div>
 </div>
-
 ---
-
 ## 🧾 Certifications <a id="certificates"></a>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
   <div>
@@ -364,14 +362,11 @@ body {
     <p align="center"><strong>Personality Development</strong><br>SAEIF Foundation</p>
   </div>
 </div>
-
 ---
-
 ## 📬 Contact <a id="contact"></a>
  <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; height:16px; width:16px; fill:#007acc; margin-right:6px;" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 8.99l7.06 4.42c.41.26.94.26 1.35 0L20 8.99V6l-8 5-8-5v2.99z"/></svg> <a href="mailto:harsh.tripati21@gmail.com">harsh.tripati21@gmail.com</a>
  <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; height:16px; width:16px; fill:#007acc; margin-right:6px;" viewBox="0 0 24 24"><path d="M12 2.04c5.5 0 9.96 4.46 9.96 9.96S17.5 21.96 12 21.96 2.04 17.5 2.04 12 6.5 2.04 12 2.04zm3 10.49c-.26-.16-1.53-.76-1.77-.85-.24-.09-.42-.13-.6.13-.19.26-.73.85-.9 1.02-.17.17-.34.19-.6.06-.26-.13-1.11-.41-2.11-1.3-.78-.69-1.3-1.54-1.46-1.8-.16-.26-.02-.4.12-.53.12-.12.26-.33.39-.5.13-.17.17-.26.26-.43.09-.17.04-.31-.02-.43-.06-.13-.6-1.45-.82-1.98-.22-.52-.44-.45-.6-.46-.15-.02-.32-.02-.49-.02s-.43.06-.65.31c-.22.26-.84.82-.84 2 0 1.18.86 2.33.98 2.5.12.17 1.7 2.6 4.12 3.64.58.24 1.03.39 1.38.5.58.18 1.11.15 1.53.09.47-.07 1.53-.62 1.74-1.22.22-.61.22-1.13.15-1.22-.07-.09-.24-.16-.5-.31z"/></svg> <a href="https://www.linkedin.com/in/harsh-tripathi-64376333a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
  <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; height:16px; width:16px; fill:#007acc; margin-right:6px;" viewBox="0 0 24 24"><path d="M7.75 2h8.5C18.77 2 19 2.23 19 2.5V5c0 .28-.23.5-.5.5H17a4.5 4.5 0 0 1-9 0h-1.5a.5.5 0 0 1-.5-.5V2.5c0-.27.23-.5.5-.5zM12 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm-7 8.25C5 17.55 5.45 18 6 18h12c.55 0 1-.45 1-1.25V14H5v1.25z"/></svg> <a href="https://www.instagram.com/harshanalyst2025?igsh=aTNyN2d4eXl1aTg=" target="_blank" rel="noopener noreferrer">Instagram</a>
-
 <div class="contact-form-container">
   <form id="contactForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" autocomplete="on">
     <label for="name">Name:</label>
@@ -380,7 +375,6 @@ body {
     <input id="email" name="email" type="email" autocomplete="email" required>
     <label for="message">Message:</label>
     <textarea id="message" name="message" rows="5" autocomplete="on" required></textarea>
-  
   <input type="hidden" name="_subject" value="New contact from portfolio">
     <button type="submit">Send</button>
   </form>
@@ -397,4 +391,3 @@ document.addEventListener('DOMContentLoaded',function(){
   setTimeout(()=>{ showRole(2); }, 4000); // Show third after 4s
 });
 </script>
-
