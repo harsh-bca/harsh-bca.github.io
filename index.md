@@ -266,7 +266,7 @@ body {
     Sometimes a CV doesn’t tell the whole story. Here’s a short video where I introduce myself, my journey, 
     and why I bring confidence, creativity, and data-driven problem solving to the table.
   </p>
-  <iframe src="https://drive.google.com/file/d/1-Cen-mbOq176o7Ks-Cz1SwAn8VsoWr7k/view?usp=drive_link" width="100%" height="420" style="border-radius: 12px; border: none;"></iframe>
+  <iframe src="https://drive.google.com/file/d/1-Cen-mbOq176o7Ks-Cz1SwAn8VsoWr7k/preview" width="100%" height="420" style="border-radius: 12px; border: none;"></iframe>
 </div>
 <!-- Services -->
 <div id="services" class="services-container">
