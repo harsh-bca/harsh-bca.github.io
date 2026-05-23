@@ -263,7 +263,7 @@ body {
 </div>
 
 <!-- Intro Video -->
-<div id="intro-video" class="intro-container" style="max-width: 800px; margin: 0 auto; padding: 20px; border-radius: 15px; background: #f9f9f9; box-shadow: 0px 4px 12px rgba(0,0,0,0.1); text-align: center;">
+<div style="max-width: 800px; margin: 0 auto; padding: 20px; border-radius: 15px; background: #f9f9f9; box-shadow: 0px 4px 12px rgba(0,0,0,0.1); text-align: center;">
   <h2 style="color:#007acc; font-weight: bold; margin-bottom: 15px;">
     🌟 Intro Video – Why I’m Your Next Best Employee
   </h2>
@@ -271,13 +271,17 @@ body {
     Sometimes a CV doesn’t tell the whole story. Here’s a short video where I introduce myself, my journey, 
     and why I bring confidence, creativity, and data-driven problem solving to the table.
   </p>
-  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px;">
-    <iframe
-      src="https://drive.google.com/file/d/1-Cen-mbOq176o7Ks-Cz1SwAn8VsoWr7k/preview"
-      style="position:absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius:12px;"
-      allow="autoplay; fullscreen">
-    </iframe>
-  </div>
+
+  <a href="https://drive.google.com/file/d/1-Cen-mbOq176o7Ks-Cz1SwAn8VsoWr7k/preview" target="_blank" rel="noopener noreferrer"
+     style="display:block; position:relative; border-radius:12px; overflow:hidden;">
+    <img src="https://raw.github.com/harsh-bca/portfolio-assets/main/IMG_20250205_144203_180.jpg"
+         alt="Intro video thumbnail"
+         style="width:100%; display:block;">
+    <span style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+                 background:rgba(0,0,0,0.6); color:#fff; padding:10px 18px; border-radius:999px;">
+      ▶ Watch Intro Video
+    </span>
+  </a>
 </div>
 
 <!-- Services -->
